@@ -1,0 +1,15 @@
+plugin_blacklist:
+  # common
+  - safety_area
+  # extras
+  - image_pub
+  - vibration
+  - distance_sensor
+  - rangefinder
+  - wheel_odometry
+  - mocap
+
+plugin_whitelist:
+  #- 'sys_*'
+  - vision*
+  - local*

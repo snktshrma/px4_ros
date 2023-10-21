@@ -1,0 +1,12 @@
+<launch>
+    <include file="$(find px4_ros_slam)/launch/apm.launch" />
+    <include file="$(find px4_ros_slam)/launch/cartographer.launch" />
+    <include file="$(find px4_ros_slam)/launch/ap_nav.launch" />
+    <node name="origin_publisher"
+            pkg="ardupilot_ros"
+            type="set_origin.py"
+            respawn="false"
+            output="screen" />
+            
+</launch>
+
