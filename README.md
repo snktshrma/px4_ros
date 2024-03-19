@@ -3,8 +3,6 @@
 ## Description : 
 This is a ROS package for non-gps navigation for px4 containing all the required files and listed dependencies. This also contains a file from [thien94/vision_to_mavros](https://github.com/thien94/vision_to_mavros) to set origin. 
 
-Detailed description of the project and setup: [px4 Docs - Cartographer](https://px4.org/dev/docs/ros-cartographer-slam.html)
-
 This package contains all the modified files for the following packages:
 ````
 mavros
